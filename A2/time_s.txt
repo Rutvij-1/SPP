@@ -26,3 +26,5 @@ Q1/80.txt
 Time taken for execution: 0.560769 seconds
 Q1/85.txt
 Time taken for execution: 0.561354 seconds
+Q1/90.txt
+Time taken for execution: 2.836741 seconds

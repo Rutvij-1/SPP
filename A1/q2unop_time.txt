@@ -1,0 +1,180 @@
+t6
+
+ Performance counter stats for './q2uo.out':
+
+        228.626903      task-clock:u (msec)       #    0.972 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,264      page-faults:u             #    0.027 M/sec                  
+      60,11,78,616      cycles:u                  #    2.630 GHz                      (83.32%)
+      29,98,93,134      stalled-cycles-frontend:u #   49.88% frontend cycles idle     (82.95%)
+      10,15,86,522      stalled-cycles-backend:u  #   16.90% backend cycles idle      (66.86%)
+    1,15,37,97,853      instructions:u            #    1.92  insn per cycle         
+                                                  #    0.26  stalled cycles per insn  (83.39%)
+      11,91,58,176      branches:u                #  521.191 M/sec                    (83.77%)
+          8,31,226      branch-misses:u           #    0.70% of all branches          (83.11%)
+
+       0.235298608 seconds time elapsed
+
+t19
+
+ Performance counter stats for './q2uo.out':
+
+      61823.601698      task-clock:u (msec)       #    0.997 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            39,712      page-faults:u             #    0.642 K/sec                  
+ 1,74,26,10,36,610      cycles:u                  #    2.819 GHz                      (83.32%)
+   79,26,95,88,007      stalled-cycles-frontend:u #   45.49% frontend cycles idle     (83.34%)
+   18,22,86,23,433      stalled-cycles-backend:u  #   10.46% backend cycles idle      (66.67%)
+ 3,44,96,38,93,093      instructions:u            #    1.98  insn per cycle         
+                                                  #    0.23  stalled cycles per insn  (83.35%)
+   30,38,56,62,570      branches:u                #  491.490 M/sec                    (83.32%)
+       6,63,59,792      branch-misses:u           #    0.22% of all branches          (83.34%)
+
+      61.990595090 seconds time elapsed
+
+t29
+
+ Performance counter stats for './q2uo.out':
+
+      91368.045710      task-clock:u (msec)       #    0.997 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            44,458      page-faults:u             #    0.487 K/sec                  
+ 2,58,01,87,21,174      cycles:u                  #    2.824 GHz                      (83.34%)
+ 1,16,69,36,41,877      stalled-cycles-frontend:u #   45.23% frontend cycles idle     (83.32%)
+   25,67,36,71,965      stalled-cycles-backend:u  #    9.95% backend cycles idle      (66.67%)
+ 5,12,90,89,93,689      instructions:u            #    1.99  insn per cycle         
+                                                  #    0.23  stalled cycles per insn  (83.32%)
+   45,11,46,58,903      branches:u                #  493.768 M/sec                    (83.34%)
+       8,91,44,560      branch-misses:u           #    0.20% of all branches          (83.32%)
+
+      91.608344280 seconds time elapsed
+
+t31
+
+ Performance counter stats for './q2uo.out':
+
+         90.804937      task-clock:u (msec)       #    0.963 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,265      page-faults:u             #    0.069 M/sec                  
+      21,09,11,378      cycles:u                  #    2.323 GHz                      (83.02%)
+      13,83,31,483      stalled-cycles-frontend:u #   65.59% frontend cycles idle     (82.54%)
+       7,22,48,187      stalled-cycles-backend:u  #   34.26% backend cycles idle      (67.29%)
+      37,27,18,101      instructions:u            #    1.77  insn per cycle         
+                                                  #    0.37  stalled cycles per insn  (83.49%)
+       4,47,56,617      branches:u                #  492.887 M/sec                    (84.37%)
+          2,99,963      branch-misses:u           #    0.67% of all branches          (82.78%)
+
+       0.094304077 seconds time elapsed
+
+t43
+
+ Performance counter stats for './q2uo.out':
+
+        386.977954      task-clock:u (msec)       #    0.976 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,265      page-faults:u             #    0.016 M/sec                  
+    1,03,28,62,257      cycles:u                  #    2.669 GHz                      (83.32%)
+      49,73,64,675      stalled-cycles-frontend:u #   48.15% frontend cycles idle     (83.21%)
+      14,81,95,773      stalled-cycles-backend:u  #   14.35% backend cycles idle      (66.83%)
+    1,98,64,08,632      instructions:u            #    1.92  insn per cycle         
+                                                  #    0.25  stalled cycles per insn  (83.30%)
+      19,40,10,877      branches:u                #  501.349 M/sec                    (83.60%)
+         13,26,565      branch-misses:u           #    0.68% of all branches          (83.05%)
+
+       0.396301783 seconds time elapsed
+
+t49
+
+ Performance counter stats for './q2uo.out':
+
+        194.994138      task-clock:u (msec)       #    0.980 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,264      page-faults:u             #    0.032 M/sec                  
+      49,75,13,043      cycles:u                  #    2.551 GHz                      (83.25%)
+      26,32,84,997      stalled-cycles-frontend:u #   52.92% frontend cycles idle     (83.26%)
+       8,94,64,249      stalled-cycles-backend:u  #   17.98% backend cycles idle      (66.33%)
+      95,54,74,151      instructions:u            #    1.92  insn per cycle         
+                                                  #    0.28  stalled cycles per insn  (83.22%)
+       9,90,51,661      branches:u                #  507.973 M/sec                    (83.62%)
+          7,01,012      branch-misses:u           #    0.71% of all branches          (83.54%)
+
+       0.198945531 seconds time elapsed
+
+t75
+
+ Performance counter stats for './q2uo.out':
+
+        320.736003      task-clock:u (msec)       #    0.979 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,264      page-faults:u             #    0.020 M/sec                  
+      85,40,58,337      cycles:u                  #    2.663 GHz                      (83.56%)
+      41,95,63,194      stalled-cycles-frontend:u #   49.13% frontend cycles idle     (83.17%)
+      12,37,92,623      stalled-cycles-backend:u  #   14.49% backend cycles idle      (66.53%)
+    1,66,31,61,376      instructions:u            #    1.95  insn per cycle         
+                                                  #    0.25  stalled cycles per insn  (83.17%)
+      16,48,07,890      branches:u                #  513.843 M/sec                    (83.49%)
+         11,59,420      branch-misses:u           #    0.70% of all branches          (83.26%)
+
+       0.327734577 seconds time elapsed
+
+t77
+
+ Performance counter stats for './q2uo.out':
+
+      58286.113694      task-clock:u (msec)       #    0.997 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            34,347      page-faults:u             #    0.589 K/sec                  
+ 1,64,38,89,43,031      cycles:u                  #    2.820 GHz                      (83.32%)
+   74,95,08,18,755      stalled-cycles-frontend:u #   45.59% frontend cycles idle     (83.35%)
+   17,37,48,46,644      stalled-cycles-backend:u  #   10.57% backend cycles idle      (66.67%)
+ 3,24,26,07,53,969      instructions:u            #    1.97  insn per cycle         
+                                                  #    0.23  stalled cycles per insn  (83.34%)
+   28,57,99,54,913      branches:u                #  490.339 M/sec                    (83.32%)
+       6,50,64,031      branch-misses:u           #    0.23% of all branches          (83.34%)
+
+      58.446569704 seconds time elapsed
+
+t78
+
+ Performance counter stats for './q2uo.out':
+
+        221.185441      task-clock:u (msec)       #    0.977 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,265      page-faults:u             #    0.028 M/sec                  
+      57,79,30,768      cycles:u                  #    2.613 GHz                      (83.08%)
+      29,48,17,117      stalled-cycles-frontend:u #   51.01% frontend cycles idle     (83.61%)
+      10,53,83,881      stalled-cycles-backend:u  #   18.23% backend cycles idle      (66.75%)
+    1,10,84,60,588      instructions:u            #    1.92  insn per cycle         
+                                                  #    0.27  stalled cycles per insn  (83.47%)
+      11,48,84,791      branches:u                #  519.405 M/sec                    (83.27%)
+          7,96,982      branch-misses:u           #    0.69% of all branches          (83.29%)
+
+       0.226341573 seconds time elapsed
+
+t91
+
+ Performance counter stats for './q2uo.out':
+
+        286.522423      task-clock:u (msec)       #    0.971 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,264      page-faults:u             #    0.022 M/sec                  
+      74,58,83,566      cycles:u                  #    2.603 GHz                      (82.91%)
+      36,97,83,806      stalled-cycles-frontend:u #   49.58% frontend cycles idle     (83.49%)
+      12,40,86,224      stalled-cycles-backend:u  #   16.64% backend cycles idle      (66.94%)
+    1,42,78,82,005      instructions:u            #    1.91  insn per cycle         
+                                                  #    0.26  stalled cycles per insn  (83.76%)
+      14,28,33,888      branches:u                #  498.509 M/sec                    (83.25%)
+         10,37,492      branch-misses:u           #    0.73% of all branches          (83.41%)
+
+       0.294993977 seconds time elapsed
+

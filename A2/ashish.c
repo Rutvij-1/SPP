@@ -102,7 +102,7 @@ int main()
 	}
 	double tt = end.tv_sec - init.tv_sec;
 	double ns = (1.0 * (end.tv_nsec - init.tv_nsec)) / 1e9;
-	// outputMat(ar, v);
-	printf("Time Taken : %lf\n", 12.391062);
+	outputMat(ar, v);
+	printf("Time Taken : %lf\n", tt + ns);
 	return 0;
 }

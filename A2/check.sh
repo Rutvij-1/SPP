@@ -20,5 +20,5 @@ do
 	echo $inname
 	name=${inname:${#2}}
 	./$1 < $inname > $out_folder/$name
-	cat $out_folder/$name | grep 'Time taken'
+	cat $out_folder/$name | grep 'Time Taken'
 done

@@ -162,12 +162,12 @@ ll **fun(int l, int r)
 
 int main()
 {
-	// struct timespec begin, end;
-	// if (clock_gettime(CLOCK_REALTIME, &begin) == -1)
-	// {
-	// 	perror("clock gettime");
-	// 	return EXIT_FAILURE;
-	// }
+	struct timespec begin, end;
+	if (clock_gettime(CLOCK_REALTIME, &begin) == -1)
+	{
+		perror("clock gettime");
+		return EXIT_FAILURE;
+	}
 	int n;
 	scanf("%d", &n);
 	register int i, j;
@@ -204,13 +204,13 @@ int main()
 		free_mat(ans, x[0]);
 	free(x);
 	free(y);
-	// if (clock_gettime(CLOCK_REALTIME, &end) == -1)
-	// {
-	// 	perror("clock gettime");
-	// 	return EXIT_FAILURE;
-	// }
-	// double S = (end.tv_sec - begin.tv_sec);
-	// double NS = (double)(end.tv_nsec - begin.tv_nsec) / (double)BILLION;
-	// printf("\n\nTime taken for execution: %lf seconds\n", S + NS);
+	if (clock_gettime(CLOCK_REALTIME, &end) == -1)
+	{
+		perror("clock gettime");
+		return EXIT_FAILURE;
+	}
+	double S = (end.tv_sec - begin.tv_sec);
+	double NS = (double)(end.tv_nsec - begin.tv_nsec) / (double)BILLION;
+	printf("\n\nTime taken for execution: %lf seconds\n", S + NS);
 	return 0;
 }

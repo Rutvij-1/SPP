@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+#include <limits.h>
 
+#define BILLION 1000000000L
 #define ll long long
 #define dim 1005
 
@@ -9,12 +12,12 @@ ll prev[dim][dim];
 
 int main()
 {
-	// struct timespec begin, end;
-	// if (clock_gettime(CLOCK_REALTIME, &begin) == -1)
-	// {
-	// 	perror("clock gettime");
-	// 	return EXIT_FAILURE;
-	// }
+	struct timespec begin, end;
+	if (clock_gettime(CLOCK_REALTIME, &begin) == -1)
+	{
+		perror("clock gettime");
+		return EXIT_FAILURE;
+	}
 	scanf("%lld", &n);
 	scanf("%lld%lld", &x, &y);
 	for (int i = 0; i < x; ++i)
@@ -44,13 +47,13 @@ int main()
 			printf("%lld ", prev[i][j]);
 		printf("\n");
 	}
-	// if (clock_gettime(CLOCK_REALTIME, &end) == -1)
-	// {
-	// 	perror("clock gettime");
-	// 	return EXIT_FAILURE;
-	// }
-	// double S = (end.tv_sec - begin.tv_sec);
-	// double NS = (double)(end.tv_nsec - begin.tv_nsec) / (double)BILLION;
-	// printf("\n\nTime taken for execution: %lf seconds\n", S + NS);
+	if (clock_gettime(CLOCK_REALTIME, &end) == -1)
+	{
+		perror("clock gettime");
+		return EXIT_FAILURE;
+	}
+	double S = (end.tv_sec - begin.tv_sec);
+	double NS = (double)(end.tv_nsec - begin.tv_nsec) / (double)BILLION;
+	printf("\n\nTime taken for execution: %lf seconds\n", S + NS);
 	return 0;
 }

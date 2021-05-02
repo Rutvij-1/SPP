@@ -1,0 +1,28 @@
+Q1/0.txt
+Time taken for execution: 0.017257 seconds
+Q1/10.txt
+Time taken for execution: 0.026431 seconds
+Q1/15.txt
+Time taken for execution: 0.027643 seconds
+Q1/20.txt
+Time taken for execution: 0.251299 seconds
+Q1/30.txt
+Time taken for execution: 0.072228 seconds
+Q1/40.txt
+Time taken for execution: 0.629770 seconds
+Q1/50.txt
+Time taken for execution: 0.053182 seconds
+Q1/55.txt
+Time taken for execution: 0.373352 seconds
+Q1/5.txt
+Time taken for execution: 0.015133 seconds
+Q1/60.txt
+Time taken for execution: 0.118027 seconds
+Q1/70.txt
+Time taken for execution: 2.223315 seconds
+Q1/75.txt
+Time taken for execution: 1.545739 seconds
+Q1/80.txt
+Time taken for execution: 0.857680 seconds
+Q1/85.txt
+Time taken for execution: 0.830195 seconds
